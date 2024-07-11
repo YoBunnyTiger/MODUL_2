@@ -7,7 +7,7 @@ not_primes = []
 
 for i in range(2, len(numbers) + 1):
     is_prime = True
-    for j in primes:
+    for j in range(2, i):   # До этого я упростил код чтобы сократить кол-во шагов проверки на ~50
         if i % j == 0:
             is_prime = False
             break
