@@ -21,8 +21,7 @@ def password(n):
         for j in range(i + 1, n):
             if n % (i + j) == 0:
                 pass_ += str(i) + str(j)
-    _pass_ = re.findall(r'\d\d', pass_)
-    return _pass_
+    return pass_
 
 
 print('Пароль: ', password(int(number)))
