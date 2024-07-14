@@ -1,5 +1,4 @@
 import random
-import re
 
 print('Выжить или Умереть?!!!')
 
